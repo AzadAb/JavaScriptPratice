@@ -72,3 +72,4 @@ console.log(result);
 
 // some and every and find and findIndex() and sort()
 
+let number = [1, 3, 4];
