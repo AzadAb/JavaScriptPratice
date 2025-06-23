@@ -39,3 +39,13 @@ const sample = `{
 
 const pasedData = JSON.parse(sample);
 console.log(pasedData.location.name);
+
+
+
+const response = {
+    success: true,
+    message: "data is recived"
+};
+const jsonStr = JSON.stringify(response);
+
+console.log(jsonStr);
